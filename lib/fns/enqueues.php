@@ -1,20 +1,13 @@
 <?php
 
-namespace EleDevExtras\enqueues;
+namespace SmcoThriftMods\enqueues;
 
 /**
- * Enqueues plugin CSS and removes the following:
- *
- * - Hello Elementor Theme styles
- * - WP Block Library Styles
+ * Enqueues plugin CSSs
  */
 function enqueue_scripts(){
-  //wp_dequeue_style( 'wp-block-library' );
-  //wp_dequeue_style( 'hello-elementor' );
-  //wp_dequeue_style( 'hello-elementor-theme-style' );
-
   $css_dir = ( stristr( site_url(), '.local' ) || SCRIPT_DEBUG )? 'css' : 'dist' ;
-  wp_register_style( 'elementor-developer-extras', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
+  wp_register_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts', 99999999 );
 

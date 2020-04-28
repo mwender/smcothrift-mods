@@ -1,15 +1,15 @@
 <?php
 /**
- * Plugin Name:     Elementor Developer Extras
+ * Plugin Name:     SMCo Thirft Mods
  * Plugin URI:      PLUGIN SITE HERE
- * Description:     Developer tools for working with WordPress sites built with Elementor.
+ * Description:     Modifications for the SMCo Thrift Elementor-powered site.
  * Author:          Michael Wender
  * Author URI:      https://mwender.com
- * Text Domain:     elementor-developer-extras
+ * Text Domain:     smcothrift-mods
  * Domain Path:     /languages
  * Version:         0.2.0
  *
- * @package         ElementorDeveloperExtras
+ * @package         SmcoThriftMods
  */
 
 // Include required files

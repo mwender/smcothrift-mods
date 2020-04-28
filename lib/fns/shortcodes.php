@@ -1,6 +1,6 @@
 <?php
 
-namespace EleDevExtras\shortcodes;
+namespace SmcoThriftMods\shortcodes;
 
 /**
  * Displays the SMCo Thrift Pricing and SignUp form
@@ -54,7 +54,7 @@ function pricing_form( $atts ){
         break;
     }
   }
-  wp_enqueue_style( 'elementor-developer-extras' );
+  wp_enqueue_style( 'smcothrift-mods' );
   wp_enqueue_script( 'pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.js'), true );
   wp_localize_script( 'pricing', 'wpvars', ['formId' => $args['form']] );
 
