@@ -1,4 +1,4 @@
-# Elementor Developer Extras #
+# SMCoThrift Mods #
 **Contributors:** the_webist  
 **Tags:** comments, spam  
 **Requires at least:** 4.5  
@@ -7,7 +7,7 @@
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
-Tools for developers working on sites built with WordPress and Elementor.
+Modifications for the SMCoThrift Elementor-powered site.
 
 ## Description ##
 
@@ -23,6 +23,9 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 ## Changelog ##
+
+### 1.0.0 ###
+* Initial release.
 
 ### 0.2.0 ###
 * Adding `uber_log()` for enhanced error logging/debugging.
