@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     SMCo Thirft Mods
- * Plugin URI:      PLUGIN SITE HERE
+ * Plugin URI:      https://github.com/mwender/smcothrift-mods
  * Description:     Modifications for the SMCo Thrift Elementor-powered site.
  * Author:          Michael Wender
  * Author URI:      https://mwender.com
  * Text Domain:     smcothrift-mods
  * Domain Path:     /languages
- * Version:         1.0.1
+ * Version:         1.1.0
  *
  * @package         SmcoThriftMods
  */

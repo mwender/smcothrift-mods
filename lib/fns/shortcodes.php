@@ -26,6 +26,7 @@ function pricing_form( $atts ){
   } else {
     $replace['form'] = gravity_form( $args['form'], false, false, false, false, true, null, false );
   }
+  $replace['display_affiliate-partner'] = '';
   $replace['display_site-visit'] = '';
   $replace['display_group-coaching'] = '';
   $replace['display_one-on-one-coaching'] = '';
@@ -35,6 +36,7 @@ function pricing_form( $atts ){
   $show = ( stristr( $args['show'], ',') )? explode(',', $args['show'] ) : array( $args['show'] );
   foreach( $show as $service ){
     switch ( $service ) {
+      case 'affiliate-partner':
       case 'site-visit':
       case 'group-coaching':
       case 'one-on-one-coaching':
@@ -43,6 +45,7 @@ function pricing_form( $atts ){
         break;
 
       case 'all':
+        $replace['display_affiliate-partner'] = 'display';
         $replace['display_marketing'] = 'display';
         $replace['display_group-coaching'] = 'display';
         $replace['display_one-on-one-coaching'] = 'display';
@@ -61,7 +64,7 @@ function pricing_form( $atts ){
   $file = dirname( __FILE__ ) . '/../html/pricing.html';
   $html = ( file_exists( $file ) )? file_get_contents( $file ) : '<p class="alert"><strong>ERROR:</strong> I could not find <code>' . basename( $file ) . '</code>.</p>' ;
 
-  $search = ['form', 'display_site-visit', 'display_group-coaching', 'display_one-on-one-coaching', 'display_marketing', 'introtext'];
+  $search = ['form', 'display_affiliate-partner', 'display_site-visit', 'display_group-coaching', 'display_one-on-one-coaching', 'display_marketing', 'introtext'];
   foreach( $search as $key ){
     $html = str_replace( '{' . $key . '}', $replace[$key], $html );
   }

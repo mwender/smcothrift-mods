@@ -1,0 +1,76 @@
+/**
+ * SMCo Pricing Form
+ ************************************************/
+#setupfee{
+  color: #666;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+}
+.amount{
+  font-size: 48px;
+  font-weight: bold;
+  color: #060;
+
+  &.disabled{
+    color: #ccc;
+  }
+  &.amount-inherit{
+    font-size: inherit;
+  }
+}
+span.amount{
+  background: rgba(0,0,0,0.1);
+  padding: 0 3px;
+  border-radius: 3px;
+
+  &.disabled{
+    color: #666;
+  }
+}
+
+.smco-pricing{
+  section.pure-form{
+    background-color: lighten($primaryColor,60%);
+    padding: 1.5rem 3rem 3rem 1.5rem;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    display: none;
+
+    &.display{
+      display: block;
+    }
+
+    label{
+      font-size: 1.3rem;
+      margin: 0;
+    }
+    .options{
+      margin-top: 1.25rem;
+      margin-left: 1.45rem;
+
+      label{
+        margin-left: .5rem;
+      }
+    }
+    p{
+      margin: 0;
+      line-height: 1.5;
+
+      &.small{
+        color: #333;
+      }
+    }
+    label + p{
+      margin-top: .5rem;
+      margin-left: 1.45rem;
+    }
+  }
+}
+.gform_wrapper{
+  input[type='submit']{
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 3px;
+  }
+}
