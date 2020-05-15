@@ -30,6 +30,7 @@ function pricing_form( $atts ){
   $replace['display_site-visit'] = '';
   $replace['display_group-coaching'] = '';
   $replace['display_one-on-one-coaching'] = '';
+  $replace['display_coaching-partner'] = '';
   $replace['display_marketing'] = '';
   $replace['introtext'] = $args['introtext'];
 
@@ -39,7 +40,7 @@ function pricing_form( $atts ){
       case 'affiliate-partner':
       case 'site-visit':
       case 'group-coaching':
-      case 'one-on-one-coaching':
+      case 'coaching-partner':
       case 'marketing':
         $replace['display_' . $service ] = 'display';
         break;
@@ -48,7 +49,7 @@ function pricing_form( $atts ){
         $replace['display_affiliate-partner'] = 'display';
         $replace['display_marketing'] = 'display';
         $replace['display_group-coaching'] = 'display';
-        $replace['display_one-on-one-coaching'] = 'display';
+        $replace['display_coaching-partner'] = 'display';
         $replace['display_site-visit'] = 'display';
         break;
 
@@ -64,7 +65,7 @@ function pricing_form( $atts ){
   $file = dirname( __FILE__ ) . '/../html/pricing.html';
   $html = ( file_exists( $file ) )? file_get_contents( $file ) : '<p class="alert"><strong>ERROR:</strong> I could not find <code>' . basename( $file ) . '</code>.</p>' ;
 
-  $search = ['form', 'display_affiliate-partner', 'display_site-visit', 'display_group-coaching', 'display_one-on-one-coaching', 'display_marketing', 'introtext'];
+  $search = ['form', 'display_affiliate-partner', 'display_site-visit', 'display_group-coaching', 'display_coaching-partner', 'display_marketing', 'introtext'];
   foreach( $search as $key ){
     $html = str_replace( '{' . $key . '}', $replace[$key], $html );
   }
