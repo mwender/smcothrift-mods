@@ -3,7 +3,7 @@
 **Tags:** comments, spam  
 **Requires at least:** 4.5  
 **Tested up to:** 5.4  
-**Stable tag:** 1.1.2  
+**Stable tag:** 1.2.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,6 +23,9 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 ## Changelog ##
+
+### 1.2.0 ###
+* Updates for SMCo Thrift Elementor powered site.
 
 ### 1.1.2 ###
 * Defaulting Affiliate Partners option to `Silver` package and removing options.
