@@ -1,10 +1,10 @@
 {
-  "name": "elementor-developer-extras",
+  "name": "smcothrift-mods",
   "version": "0.1.0",
   "main": "Gruntfile.js",
   "author": "Michael Wender",
   "config": {
-    "proxy_url": "https://smcothrift.local"
+    "proxy_url": "https://thrifttrac.local"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.6",
