@@ -3,11 +3,13 @@
 namespace SmcoThriftMods\enqueues;
 
 /**
- * Enqueues plugin CSSs
+ * Enqueues plugin CSS
  */
 function enqueue_scripts(){
   $css_dir = ( stristr( site_url(), '.local' ) || SCRIPT_DEBUG )? 'css' : 'dist' ;
   wp_register_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
+
+  wp_register_script( 'thrifttrac-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thrifttrac.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thrifttrac.js'), true );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts', 99999999 );
 

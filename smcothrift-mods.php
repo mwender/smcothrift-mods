@@ -14,7 +14,8 @@
 
 // Include required files
 require_once( 'lib/fns/enqueues.php' );
-require_once( 'lib/fns/shortcodes.php' );
+require_once( 'lib/fns/shortcodes.smcothrift.php' );
+require_once( 'lib/fns/shortcodes.thrifttrac.php' );
 
 /**
  * Enhanced error logging

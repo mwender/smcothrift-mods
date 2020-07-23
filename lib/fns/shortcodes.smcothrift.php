@@ -1,6 +1,6 @@
 <?php
 
-namespace SmcoThriftMods\shortcodes;
+namespace SmcoThrift\shortcodes;
 
 /**
  * Displays the SMCo Thrift Pricing and SignUp form
