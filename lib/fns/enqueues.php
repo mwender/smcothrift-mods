@@ -10,6 +10,7 @@ function enqueue_scripts(){
   wp_register_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
 
   wp_register_script( 'thrifttrac-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thrifttrac.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thrifttrac.js'), true );
+  wp_register_script( 'thriftpoints-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thriftpoints.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thriftpoints.js'), true );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts', 99999999 );
 

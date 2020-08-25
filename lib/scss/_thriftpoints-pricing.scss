@@ -1,0 +1,64 @@
+/* ThriftPoints CSS Adjustments */
+.thriftpoints{
+  input[type=date],
+  input[type=email],
+  input[type=password],
+  input[type=search],
+  input[type=tel],
+  input[type=text],
+  input[type=url],
+  select,
+  textarea{
+    padding-top: .25em;
+    padding-bottom: 0;
+  }
+  input[type=number]{
+    padding: .25em .5em .25em .5em;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+  }
+  fieldset{
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  label{
+    clear: both;
+    display: block;
+    margin: 1em 0 0 0 !important;
+    align-items: normal !important;
+  }
+  .form-row{
+    display: flex;
+    background-color: #f4f5f3;
+    padding: 1em;
+    margin-top: .5em;
+    border-radius: 5px;
+    margin-bottom: .25em;
+  }
+}
+
+.gform_wrapper .field_sublabel_below .ginput_complex.ginput_container label,
+.gform_wrapper .field_sublabel_below div[class*=gfield_time_].ginput_container label{
+  margin: .5em 0 1em 0;
+}
+body .gform_wrapper .top_label div.ginput_container{
+  margin-top: 0;
+}
+.gform_wrapper ul.gfield_radio li,
+.gform_wrapper ul.gfield_checkbox li{
+  display: flex;
+  margin-bottom: .5em;
+  align-items: center;
+
+  input{
+    margin: 0 .35em 0 0 !important;
+  }
+  label{
+    margin: 0 !important;
+  }
+}
+.gform_wrapper .field_description_below .gfield_description{
+  padding: 0;
+}
