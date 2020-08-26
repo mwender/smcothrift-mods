@@ -6,6 +6,7 @@ namespace SmcoThriftMods\enqueues;
  * Enqueues plugin CSS
  */
 function enqueue_scripts(){
+  wp_enqueue_script( 'jquery' );
   $css_dir = ( stristr( site_url(), '.local' ) || SCRIPT_DEBUG )? 'css' : 'dist' ;
   wp_register_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
 
