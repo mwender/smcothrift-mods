@@ -3,7 +3,7 @@
 **Tags:** comments, spam  
 **Requires at least:** 4.5  
 **Tested up to:** 5.4  
-**Stable tag:** 1.4.1  
+**Stable tag:** 1.5.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,6 +23,10 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 ## Changelog ##
+
+### 1.5.0 ###
+* Updating "Bundle and Save" copy.
+* Email Marketing additional audiences cost $800/audience unless it's the Complete Management package. Then it's $500/additional audience.
 
 ### 1.4.1 ###
 * Adding "Bundle and Save" note for ThriftPoints pricing and sign up.
