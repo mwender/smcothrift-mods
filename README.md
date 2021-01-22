@@ -3,7 +3,7 @@
 **Tags:** comments, spam  
 **Requires at least:** 4.5  
 **Tested up to:** 5.4  
-**Stable tag:** 1.5.2  
+**Stable tag:** 1.6.0  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,6 +23,12 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 ## Changelog ##
+
+### 1.6.0 ###
+* Updating pricing of "In-Store Digital Display/BrightSign" to reflect $100/month for first sign and $50/month for each additional.
+* BUGFIX: `pricing.thriftpoints.js` was not respecting the `perLocation` setting in the `pricing` object.
+* Switching names of `shortcodes.thrifttrac.php` and `shortcodes.thriftpoints.php` to match the contents of each file.
+* Updating NPM modules.
 
 ### 1.5.2 ###
 * Changing "ThriftTrac" to "ThriftPoints" on pricing form.
