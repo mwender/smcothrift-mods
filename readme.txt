@@ -2,8 +2,8 @@
 Contributors: the_webist
 Tags: comments, spam
 Requires at least: 4.5
-Tested up to: 5.4
-Stable tag: 1.6.0
+Tested up to: 5.8.2
+Stable tag: 1.6.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,11 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 == Changelog ==
+
+= 1.6.1 =
+* Updating SASS build process in `package.json`.
+* Mobile styling for ThriftTrac pricing form.
+* Mobile styling for ThriftPoints pricing form.
 
 = 1.6.0 =
 * Updating pricing of "In-Store Digital Display/BrightSign" to reflect $100/month for first sign and $50/month for each additional.
