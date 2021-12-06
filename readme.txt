@@ -3,7 +3,7 @@ Contributors: the_webist
 Tags: comments, spam
 Requires at least: 4.5
 Tested up to: 5.8.2
-Stable tag: 1.6.2
+Stable tag: 1.6.3
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,8 +24,11 @@ Install/Activate the plugin as you would any other WordPress plugin.
 
 == Changelog ==
 
+= 1.6.3 =
+* Specifying width of 100% for first column of ThriftTrac and ThriftPoints pricing forms.
+
 = 1.6.2 =
-* Specifying width of 100% for ThriftTrac and ThriftPoints pricing forms.
+* Specifying width of 100% for second column of ThriftTrac and ThriftPoints pricing forms.
 
 = 1.6.1 =
 * Updating SASS build process in `package.json`.
