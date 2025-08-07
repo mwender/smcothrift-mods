@@ -2,6 +2,22 @@
 
 namespace ThriftTrac\shortcodes;
 
+/**
+ * Render the ThriftTrac pricing form shortcode.
+ *
+ * This shortcode loads a static HTML file and injects a Gravity Form into it.
+ * It also enqueues associated styles and scripts, and passes localized variables to JS.
+ *
+ * @since 1.3.0
+ *
+ * @param array $atts {
+ *     Array of shortcode attributes.
+ *
+ *     @type int    $gravityform                    The ID of the Gravity Form to embed.
+ *     @type int    $gf_form_price_display_field_id The field ID used to display pricing in the form.
+ * }
+ * @return string HTML output for the pricing form or an error message.
+ */
 function thrifttrac_pricing_form( $atts ){
   $args = shortcode_atts([
     'gravityform'                    => null,
