@@ -60,7 +60,9 @@ function pricing_form( $atts ){
   }
   wp_enqueue_style( 'smcothrift-mods' );
   wp_enqueue_script( 'pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.js'), true );
-  wp_localize_script( 'pricing', 'wpvars', ['formId' => $args['form']] );
+  wp_localize_script( 'pricing', 'wpvars', [
+    'formId' => $args['form'],
+  ]);
 
   $file = dirname( __FILE__ ) . '/../html/pricing.html';
   $html = ( file_exists( $file ) )? file_get_contents( $file ) : '<p class="alert"><strong>ERROR:</strong> I could not find <code>' . basename( $file ) . '</code>.</p>' ;
