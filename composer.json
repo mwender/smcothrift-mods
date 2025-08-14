@@ -1,0 +1,15 @@
+{
+  "name": "mwender/smcothrift-mods",
+  "description": "Custom modifications and enhancements for SMCO Thrift.",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Michael Wender",
+      "email": "mwender@wenmarkdigital.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  }
+}
