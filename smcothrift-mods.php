@@ -19,6 +19,17 @@ require_once( 'lib/fns/shortcodes.smcothrift.php' );
 require_once( 'lib/fns/shortcodes.thriftpoints.php' );
 require_once( 'lib/fns/shortcodes.thrifttrac.php' );
 
+
+/**
+ * Changes the path to save .json files to one level above the directory containing WordPress.
+ *
+ * @return string
+ */
+function power_boost_change_json_path() {
+  return plugin_dir_path( __FILE__ ) . 'lib/gf-json/' ;
+}
+add_filter( 'gravityforms_local_json_save_path', 'power_boost_change_json_path' );
+
 /**
  * Enhanced error logging
  *
