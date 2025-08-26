@@ -3,7 +3,7 @@ Contributors: the_webist
 Tags: comments, spam
 Requires at least: 4.5
 Tested up to: 5.8.2
-Stable tag: 1.7.0
+Stable tag: 1.7.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,9 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 == Changelog ==
+
+= 1.7.1 =
+* Removing "Account/Routing No." fields from GravityForm #8.
 
 = 1.7.0 =
 * Saving GravityForms JSON to `/lib/gf-json/` via the Power Boost for GravityForms plugin.
