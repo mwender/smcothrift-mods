@@ -7,7 +7,7 @@
  * Author URI:      https://mwender.com
  * Text Domain:     smcothrift-mods
  * Domain Path:     /languages
- * Version:         1.6.4
+ * Version:         1.7.0
  *
  * @package         SmcoThriftMods
  */

@@ -3,7 +3,7 @@ Contributors: the_webist
 Tags: comments, spam
 Requires at least: 4.5
 Tested up to: 5.8.2
-Stable tag: 1.6.4
+Stable tag: 1.7.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -23,6 +23,12 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 == Changelog ==
+
+= 1.7.0 =
+* Saving GravityForms JSON to `/lib/gf-json/` via the Power Boost for GravityForms plugin.
+* Server-side override for GravityForms ID 8 on smcothrift.com: setting custom total.
+* Using `wpvars.formId` in `/lib/js/pricing.js` for clarity.
+* Pricing updates for SMCoThrift and ThriftTrac.
 
 = 1.6.4 =
 * Responsive layout for SMCo Thrift pricing form.
