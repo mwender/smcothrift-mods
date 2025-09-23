@@ -11,7 +11,7 @@ namespace SmcoThriftMods\gravityforms;
  */
 function generate_server_side_product( $product_info, $form, $entry ) {
   // Pull raw numeric total from a hidden Number field (ID 22 here).
-  $raw = rgar( $_POST, 'input_22' );
+  $raw = rgar( $_POST, 'input_21' );
   $amount = floatval( preg_replace( '/[^\d.\-]/', '', (string) $raw ) );
 
   if ( $amount > 0 ) {
