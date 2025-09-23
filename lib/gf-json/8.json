@@ -52,7 +52,7 @@
                 "fields": "",
                 "inputMaskIsCustom": false,
                 "maxLength": "",
-                "layoutGroupId": "1a3a728b",
+                "layoutGroupId": "32759240",
                 "autocompleteAttribute": "",
                 "enableAutocomplete": false
             },
@@ -94,7 +94,7 @@
                 "fields": "",
                 "inputMaskIsCustom": false,
                 "maxLength": "",
-                "layoutGroupId": "3f34f9e7",
+                "layoutGroupId": "80fee5d6",
                 "autocompleteAttribute": "",
                 "enableAutocomplete": false
             },
@@ -136,7 +136,7 @@
                 "useRichTextEditor": false,
                 "fields": "",
                 "displayOnly": "",
-                "layoutGroupId": "23630a43",
+                "layoutGroupId": "8838ef28",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": "",
                 "errors": []
@@ -179,7 +179,7 @@
                 "useRichTextEditor": false,
                 "fields": "",
                 "displayOnly": "",
-                "layoutGroupId": "f06ee560",
+                "layoutGroupId": "ebdf17f9",
                 "autocompleteAttribute": "",
                 "enableAutocomplete": false
             },
@@ -217,7 +217,7 @@
                 "productField": "",
                 "layoutGridColumnSpan": 12,
                 "enableEnhancedUI": 0,
-                "layoutGroupId": "88eb1ed0",
+                "layoutGroupId": "94b1ccfe",
                 "multipleFiles": false,
                 "maxFiles": "",
                 "calculationFormula": "",
@@ -344,7 +344,7 @@
                 "fields": "",
                 "inputMaskIsCustom": false,
                 "maxLength": "",
-                "layoutGroupId": "94a5a6f0",
+                "layoutGroupId": "dc2bf509",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -387,7 +387,7 @@
                 "fields": "",
                 "inputMaskIsCustom": "",
                 "maxLength": "",
-                "layoutGroupId": "b93e03b0",
+                "layoutGroupId": "e49a9154",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -431,7 +431,7 @@
                 "fields": "",
                 "inputMaskIsCustom": "",
                 "maxLength": "",
-                "layoutGroupId": "485b957b",
+                "layoutGroupId": "fd9e7efc",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -488,7 +488,7 @@
                 "fields": "",
                 "inputMaskIsCustom": "",
                 "maxLength": "",
-                "layoutGroupId": "94bbe59d",
+                "layoutGroupId": "6ee4bc7a",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -540,7 +540,7 @@
                 "fields": "",
                 "inputMaskIsCustom": false,
                 "maxLength": "",
-                "layoutGroupId": "e341ad6c",
+                "layoutGroupId": "ab31665e",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -583,7 +583,7 @@
                 "displayOnly": "",
                 "fields": "",
                 "inputMaskIsCustom": "",
-                "layoutGroupId": "a057e9d3",
+                "layoutGroupId": "eca30f9f",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -663,7 +663,7 @@
                 "fields": "",
                 "inputMaskIsCustom": "",
                 "maxLength": "",
-                "layoutGroupId": "07d381f0",
+                "layoutGroupId": "dbdad52e",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -706,7 +706,7 @@
                 "displayAllCategories": false,
                 "useRichTextEditor": false,
                 "fields": "",
-                "layoutGroupId": "2fb5d74b",
+                "layoutGroupId": "95a6f451",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -735,7 +735,7 @@
                     }
                 ],
                 "formId": 8,
-                "description": "<p style=\"font-size: 16px; line-height: 1.5; margin: 0;\"><strong>Today's Total:<\/strong><br>Today's initial bank draft of <span class=\"initial-bank-draft amount-inherit amount disabled\">$0<\/span> from the bank account listed above.<br><br><strong>Remaining One-Time Fees:<\/strong><br>The remaining One-Time fees of <span class=\"remaining-bank-draft amount-inherit amount disabled\">$0<\/span> and any travel expenses will be drafted using the same bank account 5 days after the visit. <br><br><strong>Recurring Monthly Total:<\/strong><br>Subsequent monthly payments of <span class=\"monthly-fees amount-inherit amount disabled\">$0<\/span> will be drafted on the monthly anniversary date.<\/p>",
+                "description": "<p style=\"font-size: 16px; line-height: 1.5; margin: 0;\">\n  <strong>Today's Total (via Stripe):<\/strong><br>\n  Your payment today will be <span class=\"monthly-fees amount-inherit amount disabled\">$0<\/span>, \n  covering your first month of recurring service.<br><br>\n\n  <strong>One-Time Fees:<\/strong><br>\n  The one-time setup fees of <span class=\"one-time-fees amount-inherit amount disabled\">$0<\/span> \n  (plus any travel expenses) will be billed separately outside of Stripe.<br><br>\n\n  <strong>Future Monthly Payments:<\/strong><br>\n  Ongoing monthly payments of <span class=\"monthly-fees amount-inherit amount disabled\">$0<\/span> \n  will be drafted automatically on your monthly anniversary date.\n<\/p>\n",
                 "allowsPrepopulate": false,
                 "inputMask": false,
                 "inputMaskValue": "",
@@ -765,14 +765,14 @@
                 "displayOnly": "",
                 "checkboxLabel": "",
                 "selectAllText": "Select All",
-                "layoutGroupId": "ca1fccf2",
+                "layoutGroupId": "ab3aac40",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
             {
                 "type": "hidden",
                 "id": 22,
-                "label": "Today's Bank Draft (1\/2 One-Time\/Setup Fees + 1st Payment any Recurring Fees)",
+                "label": "DO NOT USE (MWENDER) - Old Bank Draft Calculation",
                 "adminLabel": "",
                 "isRequired": false,
                 "size": "medium",
@@ -807,9 +807,10 @@
                 "useRichTextEditor": false,
                 "fields": "",
                 "displayOnly": "",
-                "layoutGroupId": "89d1d9ff",
+                "layoutGroupId": "e5d53507",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "errors": []
             },
             {
                 "type": "hidden",
@@ -849,7 +850,7 @@
                 "useRichTextEditor": false,
                 "fields": "",
                 "displayOnly": "",
-                "layoutGroupId": "63d6491b",
+                "layoutGroupId": "c912dfb9",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             },
@@ -885,12 +886,12 @@
                 "captchaType": "",
                 "captchaTheme": "",
                 "fields": "",
-                "layoutGroupId": "31a09ad4",
+                "layoutGroupId": "da690c6a",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": ""
             }
         ],
-        "version": "2.9.15",
+        "version": "2.9.18",
         "id": 8,
         "useCurrentUserAsAuthor": true,
         "postContentTemplateEnabled": false,
@@ -965,9 +966,12 @@
                 "conditionalLogic": []
             }
         ],
+        "is_active": "1",
+        "date_created": "2020-02-21 12:35:31",
+        "is_trash": "0",
         "feeds": {
             "gravityformsadvancedpostcreation": []
         }
     },
-    "version": "2.9.15"
+    "version": "2.9.18"
 }
