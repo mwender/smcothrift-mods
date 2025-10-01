@@ -1633,15 +1633,18 @@ section.pure-form {
   font-size: 16px;
 }
 
-.amount {
+.amount,
+.gform_wrapper.gravity-theme .amount-parent input[type=text] {
   font-size: 48px;
   font-weight: bold;
   color: #060;
 }
-.amount.disabled {
+.amount.disabled,
+.gform_wrapper.gravity-theme .amount-parent input[type=text].disabled {
   color: #ccc;
 }
-.amount.amount-inherit {
+.amount.amount-inherit,
+.gform_wrapper.gravity-theme .amount-parent input[type=text].amount-inherit {
   font-size: inherit;
 }
 

@@ -206,7 +206,7 @@
                 "descriptionPlacement": "",
                 "subLabelPlacement": "",
                 "placeholder": "",
-                "cssClass": "",
+                "cssClass": "amount-parent",
                 "inputName": "",
                 "noDuplicates": false,
                 "defaultValue": "",
@@ -930,6 +930,15 @@
         "requireLogin": false,
         "requireLoginMessage": "",
         "nextFieldId": 26,
+        "validationPlacement": "below",
+        "requiredIndicator": "asterisk",
+        "customRequiredIndicator": "(Required)",
+        "saveButtonText": "Save and Continue Later",
+        "honeypotAction": "spam",
+        "validationSummary": false,
+        "deprecated": "",
+        "saveEnabled": "",
+        "markupVersion": 2,
         "notifications": [
             {
                 "isActive": true,
@@ -966,9 +975,6 @@
                 "conditionalLogic": []
             }
         ],
-        "is_active": "1",
-        "date_created": "2020-02-21 12:35:31",
-        "is_trash": "0",
         "feeds": {
             "gravityformsadvancedpostcreation": []
         }
