@@ -4,7 +4,7 @@
   "main": "Gruntfile.js",
   "author": "Michael Wender",
   "config": {
-    "proxy_url": "https://thrifttrac.local"
+    "proxy_url": "https://smcothrift.test"
   },
   "devDependencies": {
     "autoprefixer": "^9.8.6",
