@@ -1634,17 +1634,20 @@ section.pure-form {
 }
 
 .amount,
-.gform_wrapper.gravity-theme .amount-parent input[type=text] {
+.gform_wrapper.gravity-theme .amount-parent input[type=text],
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price {
   font-size: 48px;
   font-weight: bold;
   color: #060;
 }
 .amount.disabled,
-.gform_wrapper.gravity-theme .amount-parent input[type=text].disabled {
+.gform_wrapper.gravity-theme .amount-parent input[type=text].disabled,
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price.disabled {
   color: #ccc;
 }
 .amount.amount-inherit,
-.gform_wrapper.gravity-theme .amount-parent input[type=text].amount-inherit {
+.gform_wrapper.gravity-theme .amount-parent input[type=text].amount-inherit,
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price.amount-inherit {
   font-size: inherit;
 }
 
@@ -1654,6 +1657,29 @@ span.amount {
   border-radius: 3px;
 }
 span.amount.disabled {
+  color: #666;
+}
+
+.gform_wrapper.gravity-theme .amount-parent .ginput_container .ginput_product_price_label {
+  display: none;
+}
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price {
+  font-size: 48px;
+  font-weight: bold;
+  color: #060;
+}
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price.disabled {
+  color: #ccc;
+}
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price.amount-inherit {
+  font-size: inherit;
+}
+.gform_wrapper.gravity-theme .amount-parent span.amount {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 0 3px;
+  border-radius: 3px;
+}
+.gform_wrapper.gravity-theme .amount-parent span.amount.disabled {
   color: #666;
 }
 

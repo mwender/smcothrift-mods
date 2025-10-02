@@ -8,7 +8,8 @@
   font-size: 16px;
 }
 .amount,
-.gform_wrapper.gravity-theme .amount-parent input[type="text"] {
+.gform_wrapper.gravity-theme .amount-parent input[type="text"],
+.gform_wrapper.gravity-theme .amount-parent .gform-field-label.ginput_product_price{
   font-size: 48px;
   font-weight: bold;
   color: #060;
@@ -28,6 +29,33 @@ span.amount{
   &.disabled{
     color: #666;
   }
+}
+
+.gform_wrapper.gravity-theme .amount-parent{
+  .ginput_container .ginput_product_price_label{
+    display: none;
+  }
+  .gform-field-label.ginput_product_price{
+    font-size: 48px;
+    font-weight: bold;
+    color: #060;
+
+    &.disabled{
+      color: #ccc;
+    }
+    &.amount-inherit{
+      font-size: inherit;
+    }
+  }
+  span.amount{
+    background: rgba(0,0,0,0.1);
+    padding: 0 3px;
+    border-radius: 3px;
+
+    &.disabled{
+      color: #666;
+    }
+  }  
 }
 
 .smco-pricing{
