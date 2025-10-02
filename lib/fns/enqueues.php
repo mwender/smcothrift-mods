@@ -21,7 +21,7 @@ add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts', 99999999 
  * Enqueue scripts for specific GravityForms.
  */
 add_action( 'gform_enqueue_scripts', function( $form, $is_ajax ) {
-  if ( $form['id'] == 35 ) { 
+  if ( in_array( $form['id'], [ 35, 36 ] ) ) { 
     wp_enqueue_script( 'pricing-form-button-text-switcher', plugin_dir_url( __FILE__ ) . '../js/pricing-form-button-text-switcher.js', null, filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing-form-button-text-switcher.js' ), true );    
   }
 }, 10, 2 );

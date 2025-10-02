@@ -3,7 +3,7 @@
 **Tags:** comments, spam  
 **Requires at least:** 6.5  
 **Tested up to:** 6.8.0  
-**Stable tag:** 1.8.0  
+**Stable tag:** 1.8.1  
 **License:** GPLv2 or later  
 **License URI:** https://www.gnu.org/licenses/gpl-2.0.html  
 
@@ -23,6 +23,9 @@ Setup:
 Install/Activate the plugin as you would any other WordPress plugin.
 
 ## Changelog ##
+
+### 1.8.1 ###
+* Testing for multiple form IDs when checking if we should load `pricing-form-button-text-switcher.js`.
 
 ### 1.8.0 ###
 * New Pricing and Sign Up form wholly contained within GravityForms.
