@@ -8,7 +8,7 @@ namespace SmcoThriftMods\enqueues;
 function enqueue_scripts(){
   wp_enqueue_script( 'jquery' );
   $css_dir = ( stristr( site_url(), '.local' ) || SCRIPT_DEBUG )? 'css' : 'dist' ;
-  wp_register_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
+  wp_enqueue_style( 'smcothrift-mods', plugin_dir_url( __FILE__ ) . '../' . $css_dir  . '/main.css', null, filemtime( plugin_dir_path( __FILE__ ) . '../'. $css_dir .'/main.css' ) );
 
   wp_register_script( 'thrifttrac-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thrifttrac.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thrifttrac.js'), true );
   wp_register_script( 'thriftpoints-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thriftpoints.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thriftpoints.js'), true );
