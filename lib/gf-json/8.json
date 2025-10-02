@@ -54,7 +54,8 @@
                 "maxLength": "",
                 "layoutGroupId": "32759240",
                 "autocompleteAttribute": "",
-                "enableAutocomplete": false
+                "enableAutocomplete": false,
+                "inputType": ""
             },
             {
                 "type": "hidden",
@@ -96,7 +97,8 @@
                 "maxLength": "",
                 "layoutGroupId": "80fee5d6",
                 "autocompleteAttribute": "",
-                "enableAutocomplete": false
+                "enableAutocomplete": false,
+                "inputType": ""
             },
             {
                 "type": "hidden",
@@ -139,7 +141,8 @@
                 "layoutGroupId": "8838ef28",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": "",
-                "errors": []
+                "errors": [],
+                "inputType": ""
             },
             {
                 "type": "hidden",
@@ -181,7 +184,8 @@
                 "displayOnly": "",
                 "layoutGroupId": "ebdf17f9",
                 "autocompleteAttribute": "",
-                "enableAutocomplete": false
+                "enableAutocomplete": false,
+                "inputType": ""
             },
             {
                 "type": "total",
@@ -229,7 +233,8 @@
                 "fields": "",
                 "displayOnly": "",
                 "errors": [],
-                "layoutSpacerGridColumnSpan": 0
+                "layoutSpacerGridColumnSpan": 0,
+                "inputType": ""
             },
             {
                 "type": "name",
@@ -346,7 +351,8 @@
                 "maxLength": "",
                 "layoutGroupId": "dc2bf509",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "email",
@@ -389,7 +395,8 @@
                 "maxLength": "",
                 "layoutGroupId": "e49a9154",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "phone",
@@ -433,7 +440,8 @@
                 "maxLength": "",
                 "layoutGroupId": "fd9e7efc",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "radio",
@@ -490,7 +498,8 @@
                 "maxLength": "",
                 "layoutGroupId": "6ee4bc7a",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "section",
@@ -542,7 +551,8 @@
                 "maxLength": "",
                 "layoutGroupId": "ab31665e",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "text",
@@ -585,7 +595,8 @@
                 "inputMaskIsCustom": "",
                 "layoutGroupId": "eca30f9f",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "address",
@@ -665,7 +676,8 @@
                 "maxLength": "",
                 "layoutGroupId": "dbdad52e",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "html",
@@ -708,7 +720,8 @@
                 "fields": "",
                 "layoutGroupId": "95a6f451",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "checkbox",
@@ -767,7 +780,8 @@
                 "selectAllText": "Select All",
                 "layoutGroupId": "ab3aac40",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "hidden",
@@ -810,7 +824,8 @@
                 "layoutGroupId": "e5d53507",
                 "enableAutocomplete": false,
                 "autocompleteAttribute": "",
-                "errors": []
+                "errors": [],
+                "inputType": ""
             },
             {
                 "type": "hidden",
@@ -852,7 +867,8 @@
                 "displayOnly": "",
                 "layoutGroupId": "c912dfb9",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             },
             {
                 "type": "captcha",
@@ -888,7 +904,8 @@
                 "fields": "",
                 "layoutGroupId": "da690c6a",
                 "enableAutocomplete": false,
-                "autocompleteAttribute": ""
+                "autocompleteAttribute": "",
+                "inputType": ""
             }
         ],
         "version": "2.9.18",
@@ -939,6 +956,9 @@
         "deprecated": "",
         "saveEnabled": "",
         "markupVersion": 2,
+        "feeds": {
+            "gravityformsadvancedpostcreation": []
+        },
         "notifications": [
             {
                 "isActive": true,
@@ -975,9 +995,9 @@
                 "conditionalLogic": []
             }
         ],
-        "feeds": {
-            "gravityformsadvancedpostcreation": []
-        }
+        "is_active": "1",
+        "date_created": "2020-02-21 12:35:31",
+        "is_trash": "0"
     },
     "version": "2.9.18"
 }
