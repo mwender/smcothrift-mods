@@ -12,8 +12,20 @@ function enqueue_scripts(){
 
   wp_register_script( 'thrifttrac-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thrifttrac.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thrifttrac.js'), true );
   wp_register_script( 'thriftpoints-pricing', plugin_dir_url( __FILE__ ) . '../js/pricing.thriftpoints.js', ['jquery'], filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing.thriftpoints.js'), true );
+
+  wp_register_script( 'pricing-form-button-text-switcher', plugin_dir_url( __FILE__ ) . '../js/pricing-form-button-text-switcher.js', null, filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing-form-button-text-switcher.js' ), true );
 }
 add_action( 'wp_enqueue_scripts', __NAMESPACE__ . '\\enqueue_scripts', 99999999 );
+
+/**
+ * Enqueue scripts for specific GravityForms.
+ */
+add_action( 'gform_enqueue_scripts', function( $form, $is_ajax ) {
+  if ( $form['id'] == 35 ) { 
+    wp_enqueue_script( 'pricing-form-button-text-switcher', plugin_dir_url( __FILE__ ) . '../js/pricing-form-button-text-switcher.js', null, filemtime( plugin_dir_path( __FILE__ ) . '../js/pricing-form-button-text-switcher.js' ), true );    
+  }
+}, 10, 2 );
+
 
 /**
  * Removes WordPress Emoji.
